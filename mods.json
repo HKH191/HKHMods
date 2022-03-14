@@ -13,7 +13,7 @@
           "ScriptHookV.dll",
           "ScriptHookV.log"
         ],
-		"FileToVersionCheck" : "ScriptHookV.dll",
+	"FileToVersionCheck" : "ScriptHookV.dll",
         "Description": "Script Hook V is the library that allows to use GTA V script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme. This distrib also includes the latest Asi Loader and Native Trainer."
       },
       {
@@ -33,7 +33,7 @@
           "ScriptHookVDotNet3.dll",
           "ScriptHookVDotNet3.xml"
         ],
-        "FileToVersionCheck" : "ScriptHookVDotNet2",
+        "FileToVersionCheck" : "ScriptHookVDotNet2.dll",
         "Description": "Community Script Hook V .NET is an ASI plugin, which allows running scripts written in any .NET language ingame. It's full source code is hosted on Github (Changelog). Development is community-driven and open to everybody, so contributions are warmly welcomed."
       },
       {
