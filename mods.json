@@ -13,7 +13,7 @@
           "ScriptHookV.dll",
           "ScriptHookV.log"
         ],
-	"FileToVersionCheck" : "ScriptHookV.dll",
+		"FileToVersionCheck" : "ScriptHookV.dll",
         "Description": "Script Hook V is the library that allows to use GTA V script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme. This distrib also includes the latest Asi Loader and Native Trainer."
       },
       {
@@ -1686,7 +1686,7 @@
           "scripts\\HKH191sBusinessMods\\Blip & MarkerColours.txt",
           "scripts\\HKH191sBusinessMods\\Open60CarGarage.ini"
         ],
-        "FileToVersionCheck" : "scripts\\AfterHoursBusiness.dll",
+        "FileToVersionCheck" : "scripts\\HKH191SBusinessHelper.dll",
         "Description": "This is not a new mod it is just all business mods in one giant download as well as some extras that I recommend using to elevate your experience.",
         "RequiredMods": [
           "ScriptHookV",
