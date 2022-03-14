@@ -57,8 +57,8 @@
         "Active": true,
         "Installable": true,
         "Title": "HKH Mod Helper",
-        "VersionNumber": "2.2.1",
-        "DownloadUrl": "http://jleno.net/GTA5/HKH_Mod_Helper_2.2.1_FIX_ANNIHILATTOR.zip",
+        "VersionNumber": "2.5",
+        "DownloadUrl": "HKH_Mod_Helper_2.5_The_Open_Road_Patch.zip",
         "FileCount": 3,
         "FileList": [
           "scripts\\HKHModHelperNew.dll",
