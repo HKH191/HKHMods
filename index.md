@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to HKH191 Mods
 
-You can use the [editor on GitHub](https://github.com/Kochiro76/HKHMods/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This site is used to maintain the mod settings required to install my mods to GTAV using mod installer created by Kochiro.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The installer 
 
 ### Markdown
 
