@@ -7,7 +7,7 @@
         "Installable" :  false,
         "Title": "Script Hook V",
         "VersionNumber" : "1.0.2545.0",
-        "DownloadUrl": "http://jleno.net/GTA5/ScriptHookV_1.0.2545.0.zip",
+        "DownloadUrl": "http://www.dev-c.com/gtav/scripthookv/",
         "FileCount": 2,
         "FileList": [
           "ScriptHookV.dll",
@@ -60,8 +60,8 @@
         "Active": true,
         "Installable": true,
         "Title": "HKH Mod Helper",
-        "VersionNumber": "2.5",
-        "DownloadUrl": "HKH_Mod_Helper_2.5_The_Open_Road_Patch.zip",
+        "VersionNumber": "2.0.2",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/hkh-mod-helper/34ce36-HKH%20Mod%20Helper%202.0.2(MKV%20Gunlocker).zip",
         "FileCount": 3,
         "FileList": [
           "scripts\\HKHModHelperNew.dll",
@@ -81,8 +81,8 @@
         "Active": true,
         "Installable": true,
         "Title": "HKH Business Helper",
-        "VersionNumber": "",
-        "DownloadUrl": "http://jleno.net/GTA5/e6d96c-Business%20Helper.zip",
+        "VersionNumber": "3.0",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/hkh191-s-business-helper/e6d96c-Business%20Helper%20(4).zip",
         "FileCount": 46,
         "FileList": [
           "scripts\\DisableBusinesses.ini",
@@ -145,8 +145,8 @@
         "Active": true,
         "Installable": true,
         "Title": "Enable All Interiors",
-        "VersionNumber": "",
-        "DownloadUrl": "http://jleno.net/GTA5/EAI_The_Contract_Interiors.zip",
+        "VersionNumber": "9.0",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/enable-all-interiors-wip/c6f93a-EAI%20(fix%20REQUESTINTERIORS%20crash%20with%20no%20Mods%20folder).zip",
         "FileCount": 3,
         "FileList": [
           "scripts\\EnableAllinteriors.dll",
