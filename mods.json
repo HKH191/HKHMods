@@ -511,7 +511,7 @@
           "scripts\\MobileMoneyVault.dll"
         ],
         "SharedFiles" : [
-	  "scripts\\iFruitAddon2.dll",
+	  "scripts\\iFruitAddon2.dll"
 	],
 	"FileToVersionCheck" : "scripts\\MobileMoneyVault.dll",
         "Description": "This simple script allows the player to have a mobile version of the money vault (from my Arena War Business Latest version), you can have 10 slots to store money in, each one can hold around $2 Billion.",
@@ -584,7 +584,7 @@
         "SharedFiles" : [
 	  "scripts\\iFruitAddon2.dll",
 	  "scripts\\iFruitAddon2\\config.ini",
-	  "scripts\\HKHModHelperNew.dll",
+	  "scripts\\HKHModHelperNew.dll"
 	],
 	"FileToVersionCheck" : "scripts\\CayoPericoHeistInSP.dll",
         "Description": "The Cayo Perico Heist has finally arived to single player, ive taken the liberty to port the Cayo Perico Heist I made for my mod, 'The Payday Heist mod', to a standalone version.",
