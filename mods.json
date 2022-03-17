@@ -60,7 +60,7 @@
       },
       {
         "Name": "HKHModHelper",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "HKH Mod Helper",
         "VersionNumber": "2.0.2",
@@ -82,7 +82,7 @@
       },
       {
         "Name": "HKHBusinessHelper",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "HKH Business Helper",
         "VersionNumber": "3.0",
@@ -637,11 +637,11 @@
       },
       {
         "Name": "TheBusinessMegaPack",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "The Business Mega Pack",
         "VersionNumber": "3.0.2",
-        "DownloadUrl": "https://jleno.net/GTA5/TBMP___Refresh_3.0.2.zip",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/the-business-mega-pack/587f7f-TBMP%20_%20Refresh%203.0.2.zip",
         "FileCount": 1088,
         "FileList": [
           "scripts\\AfterHoursBusiness.dll",
@@ -1733,11 +1733,11 @@
       },
       {
         "Name": "PlayerCompanion",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "Player Companion",
         "VersionNumber": "4.0.0.2",
-        "DownloadUrl": "http://jleno.net/GTA5/Player_Companion_4.0.0.2.zip",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/player-companion/3e8b0e-Player%20Companion%204.0.0.2.zip",
         "FileCount": 63,
         "FileList": [
           "scripts\\PlayerCompanion.dll",
@@ -2215,7 +2215,7 @@
       },
       {
         "Name": "LestersBribes",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "Lester's Bribes",
         "VersionNumber": "",
