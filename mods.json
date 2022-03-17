@@ -13,6 +13,7 @@
           "ScriptHookV.dll",
           "ScriptHookV.log"
         ],
+	"SharedFiles" : [],
 	"FileToVersionCheck" : "ScriptHookV.dll",
         "Description": "Script Hook V is the library that allows to use GTA V script native functions in custom *.asi plugins. Note that it doesn't work in GTA Online, script hook closes GTA V when player goes in multiplayer, see details in the readme. This distrib also includes the latest Asi Loader and Native Trainer."
       },
@@ -33,7 +34,8 @@
           "ScriptHookVDotNet3.dll",
           "ScriptHookVDotNet3.xml"
         ],
-        "FileToVersionCheck" : "ScriptHookVDotNet2.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "ScriptHookVDotNet2.dll",
         "Description": "Community Script Hook V .NET is an ASI plugin, which allows running scripts written in any .NET language ingame. It's full source code is hosted on Github (Changelog). Development is community-driven and open to everybody, so contributions are warmly welcomed."
       },
       {
@@ -52,7 +54,8 @@
           "scripts\\LemonUI.SHVDN3.pdb",
           "scripts\\LemonUI.SHVDN3.xml"
         ],
-        "FileToVersionCheck" : "scripts\\LemonUI.SHVDN2.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\LemonUI.SHVDN2.dll",
         "Description": "LemonUI is a framework for creating UI systems in Grand Theft Auto V that is compatible with SHVDN2, SHVDN3 and FiveM. It allows you to create UI Elements with a NativeUI-like style, or you can also create your own UI System from scratch via the resolution-independant classes for Text, Rectangles and Textures."
       },
       {
@@ -68,7 +71,8 @@
           "scripts\\HKHModHelperNew.pdb",
           "scripts\\HKHModHelper\\AllVehicles.ini"
         ],
-        "FileToVersionCheck" : "scripts\\HKHModHelperNew.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\HKHModHelperNew.dll",
         "Description": "A mod Helper that quite a few of my mods use, mainly parts of mods that are used over and over, to make it more simple to edit combined these parts into one mod",
         "RequiredMods": [
           "ScriptHookV",
@@ -132,7 +136,10 @@
           "scripts\\BusinessHelper\\Wardrobe\\Trevor\\Slot9.ini",
           "scripts\\BusinessHelper\\Wardrobe\\Trevor\\Slot10.ini"
         ],
-        "FileToVersionCheck" : "scripts\\HKH191SBusinessHelper.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\HKH191SBusinessHelper.dll",
         "Description": "This simple mod will allow you to sell stocks, View current stocks count, sell the business, and order a vehicle from your garage, bunker, facility or Hanger!, all from a simple click of a button.",
         "RequiredMods": [
           "ScriptHookV",
@@ -154,7 +161,11 @@
           "scripts\\iFruitAddon2.dll",
           "scripts\\iFruitAddon2\\config.ini"
         ],
-        "FileToVersionCheck" : "scripts\\EnableAllinteriors.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll",
+	  "scripts\\iFruitAddon2\\config.ini"
+	],
+	"FileToVersionCheck" : "scripts\\EnableAllinteriors.dll",
         "Description": "Enable All Interiors or EAI, is a mod to enable All interiors in GTAV, this mod will be a full replacement for the following mods:\r\nOpen All Interiors\r\nOnline Interiors\r\nOpen Command Center Interiors (Still needed if your using Working Avenger, Working MOC, Working Terobyte, or their Business Mod Conterpart)\r\nOpen 60 Car Garage\r\n",
         "RequiredMods": [
           "ScriptHookV",
@@ -174,7 +185,8 @@
           "scripts\\EnhancedTrains.dll",
           "scripts\\EnhancedTrains.ini"
         ],
-        "FileToVersionCheck" : "scripts\\EnhancedTrains.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\EnhancedTrains.dll",
         "Description": "A simple script to make remove trains OR to make trains stop when somthing (vehicle/ped) is in front of them, might create more features later on.",
         "RequiredMods": [
           "ScriptHookV",
@@ -193,7 +205,8 @@
           "scripts\\WhereAmI.dll",
           "scripts\\WhereAmI.ini"
         ],
-        "FileToVersionCheck" : "scripts\\WhereAmI.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WhereAmI.dll",
         "Description": "A Minigame based on the internet game Geoguesser",
         "RequiredMods": [
           "ScriptHookV",
@@ -212,7 +225,8 @@
           "scripts\\RecordMyRoute.dll",
           "scripts\\RecordMyRoute.ini"
         ],
-        "FileToVersionCheck" : "scripts\\RecordMyRoute.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\RecordMyRoute.dll",
         "Description": "Record My Route is a script that records your vehicles route and when you want you can press backspace to reset back to a saved position, to help if you fall of a mountain or bridge.",
         "RequiredMods": [
           "ScriptHookV",
@@ -231,7 +245,8 @@
           "scripts\\EMPLauncherRework.dll",
           "scripts\\EMPLauncherRework.pdb"
         ],
-        "FileToVersionCheck" : "scripts\\EMPLauncherRework.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\EMPLauncherRework.dll",
         "Description": "This mod aims to improves upon the EMP Launcher without the need for a mods folder.",
         "RequiredMods": [
           "ScriptHookV",
@@ -250,7 +265,8 @@
           "scripts\\ActiveCamo.dll",
           "scripts\\ActiveCamo.ini"
         ],
-        "FileToVersionCheck" : "scripts\\ActiveCamo.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\ActiveCamo.dll",
         "Description": "With this scirpt the player can turn invisible like the Doomsday Heist Juggernauts.",
         "RequiredMods": [
           "ScriptHookV",
@@ -269,7 +285,8 @@
           "scripts\\SanAndreasWeaponPickups.dll",
           "scripts\\SAWP.ini"
         ],
-        "FileToVersionCheck" : "scripts\\SanAndreasWeaponPickups.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\SanAndreasWeaponPickups.dll",
         "Description": "This mod places around 80+ Weapon Pickups (as of the 1.0 update) around the map.",
         "RequiredMods": [
           "ScriptHookV",
@@ -288,7 +305,8 @@
           "scripts\\BeaterDukesMiniGame.ini",
           "scripts\\BeaterDukesRepairMiniGame.dll"
         ],
-        "FileToVersionCheck" : "scripts\\BeaterDukesRepairMiniGame.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\BeaterDukesRepairMiniGame.dll",
         "Description": "Hidden Around Los Santos and Blaine County are 50 Wrecks of Beater Dukes, Collect all 50 to drive the restored car and earn 10m in cash.",
         "RequiredMods": [
           "ScriptHookV",
@@ -307,7 +325,8 @@
           "scripts\\FlamethrowerScript.dll",
           "scripts\\FlamethrowerScript.ini"
         ],
-        "FileToVersionCheck" : "scripts\\FlamethrowerScript.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\FlamethrowerScript.dll",
         "Description": "This mod is a simple script to turn the Widowmaker from the Arena War Update into a flamethrower, the script will allow you to burn Peds, Vehicles, and even props",
         "RequiredMods": [
           "ScriptHookV",
@@ -326,7 +345,8 @@
           "scripts\\RoamingBosses.dll",
           "scripts\\RoamingBosses.ini"
         ],
-        "FileToVersionCheck" : "scripts\\RoamingBosses.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\RoamingBosses.dll",
         "Description": "This mod adds Bossess, these Bossess have different abilities, like telporting, vanishing, explosive ammo, duplicating themselves.",
         "RequiredMods": [
           "ScriptHookV",
@@ -345,7 +365,8 @@
           "scripts\\Navy Revolver Hunt",
           "scripts\\NavyRevolverInSP.dll"
         ],
-        "FileToVersionCheck" : "scripts\\NavyRevolverInSP.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\NavyRevolverInSP.dll",
         "Description": "This is a simple mod, to add in the Navy Revolver Mystery in Single Player",
         "RequiredMods": [
           "ScriptHookV",
@@ -363,7 +384,8 @@
         "FileList": [
           "scripts\\AkulaStealthMode.dll"
         ],
-        "FileToVersionCheck" : "scripts\\AkulaStealthMode.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\AkulaStealthMode.dll",
         "Description": "This mod allows the Akula to have a working stealth mode in SP, with a press of U the Cloak will charge a second later, your Akula will be almost undetectable",
         "RequiredMods": [
           "ScriptHookV",
@@ -383,7 +405,8 @@
           "scripts\\ThrowableMeleeWeapons.ini",
           "scripts\\ThrowMeleeWeapons.dll"
         ],
-        "FileToVersionCheck" : "scripts\\ThrowMeleeWeapons.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\ThrowMeleeWeapons.dll",
         "Description": "This mod will allow you to throw melee Weapons!",
         "RequiredMods": [
           "ScriptHookV",
@@ -401,7 +424,8 @@
         "FileList": [
           "scripts\\Working_Skylift.dll"
         ],
-        "FileToVersionCheck" : "scripts\\Working_Skylift.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\Working_Skylift.dll",
         "Description": "This simple mod, allows the user to use the skylifts magnet to pickup vehicles,at this stage you can only have 1 skylift carrying a vehicle",
         "RequiredMods": [
           "ScriptHookV",
@@ -462,7 +486,10 @@
           "scripts\\MobileWaredobe\\Waredrobe\\Trevor\\Slot9.ini",
           "scripts\\MobileWaredobe\\Waredrobe\\Trevor\\Slot10.ini"
         ],
-        "FileToVersionCheck" : "scripts\\MobileWareDrobe.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll",
+	],
+	"FileToVersionCheck" : "scripts\\MobileWareDrobe.dll",
         "Description": "This Mod simply adds a Mobile version of the Wardrobe, found in any of my Business mods, or Business Helper.",
         "RequiredMods": [
           "ScriptHookV",
@@ -483,7 +510,10 @@
           "scripts\\MMV.ini",
           "scripts\\MobileMoneyVault.dll"
         ],
-        "FileToVersionCheck" : "scripts\\MobileMoneyVault.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll",
+	],
+	"FileToVersionCheck" : "scripts\\MobileMoneyVault.dll",
         "Description": "This simple script allows the player to have a mobile version of the money vault (from my Arena War Business Latest version), you can have 10 slots to store money in, each one can hold around $2 Billion.",
         "RequiredMods": [
           "ScriptHookV",
@@ -551,7 +581,12 @@
           "scripts\\iFruitAddon2\\config.ini",
           "scripts\\iFruitAddon2\\iFruitAddon2\\config.ini"
         ],
-        "FileToVersionCheck" : "scripts\\CayoPericoHeistInSP.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll",
+	  "scripts\\iFruitAddon2\\config.ini",
+	  "scripts\\HKHModHelperNew.dll",
+	],
+	"FileToVersionCheck" : "scripts\\CayoPericoHeistInSP.dll",
         "Description": "The Cayo Perico Heist has finally arived to single player, ive taken the liberty to port the Cayo Perico Heist I made for my mod, 'The Payday Heist mod', to a standalone version.",
         "RequiredMods": [
           "ScriptHookV",
@@ -570,7 +605,8 @@
         "FileList": [
           "scripts\\SlamtruckCarryMyVehicle.dll"
         ],
-        "FileToVersionCheck" : "scripts\\SlamtruckCarryMyVehicle.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\SlamtruckCarryMyVehicle.dll",
         "Description": "This simple script allows the Slamtruck from the Cayo Perico Heist to carry vehicles.",
         "RequiredMods": [
           "ScriptHookV",
@@ -590,7 +626,8 @@
         "FileList": [
           "scripts\\IllligalGamblingDens.dll"
         ],
-        "FileToVersionCheck" : "scripts\\IllligalGamblingDens.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\IllligalGamblingDens.dll",
         "Description": "With this mod you will be able to play the casino games, specifically ones that ive recreated from GTAO, without the need for my DC&R Business, down by vespucci beach is a new location where you can go and gamble on any of the games in DC&R business.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1686,7 +1723,8 @@
           "scripts\\HKH191sBusinessMods\\Blip & MarkerColours.txt",
           "scripts\\HKH191sBusinessMods\\Open60CarGarage.ini"
         ],
-        "FileToVersionCheck" : "scripts\\HKH191SBusinessHelper.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\HKH191SBusinessHelper.dll",
         "Description": "This is not a new mod it is just all business mods in one giant download as well as some extras that I recommend using to elevate your experience.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1766,7 +1804,11 @@
           "scripts\\iFruitAddon2\\config.ini",
           "scripts\\iFruitAddon2.dll"
         ],
-        "FileToVersionCheck" : "scripts\\PlayerCompanion.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2\\config.ini",
+          "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\PlayerCompanion.dll",
         "Description": "Player Companion is an expanded version of Hunk's Buddy Control, re-written from scratch, the mod allows you to have a bodyguard/friend/girlfriend in GTAV, hangout with your Companion to unlock new activities.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1788,7 +1830,10 @@
           "scripts\\WorkingBomber.dll",
           "scripts\\WorkingBomber.ini"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingBomber.dll",
+        "SharedFiles" : [
+          "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\WorkingBomber.dll",
         "Description": "This simple mod allows you to use bombs in any aircaft that have got any of the 4 bomb types from smuggler's Run DLC.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1822,7 +1867,8 @@
           "scripts\\WorkingMOC\\Storage\\Vehicle.ini",
           "scripts\\WorkingMOC\\MOC.ini"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingMOC.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingMOC.dll",
         "Description": "This allows any of the main three protagonists to use a fully functional Mobile Operations Center in Single Player!",
         "RequiredMods": [
           "ScriptHookV",
@@ -1845,7 +1891,10 @@
           "scripts\\OpenCommandCenterInteriors.ini",
           "scripts\\OpenCommandCenterInteriors.txt"
         ],
-        "FileToVersionCheck" : "scripts\\OpenCommandCenterInteriors.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\OpenCommandCenterInteriors.dll",
         "Description": "What this mod does is kind of simple, it allows the Interiors of the MOC, Avenger and Terbyte to auto load when the player gets close.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1868,7 +1917,8 @@
           "scripts\\MK2AmmoGiver\\Trevor.ini",
           "scripts\\MK2AmmoGiver.dll"
         ],
-        "FileToVersionCheck" : "scripts\\MK2AmmoGiver.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\MK2AmmoGiver.dll",
         "Description": "This mod fixes the glitch that R* forgot to fix, concerning the MK2 weapons, where you reload the game and it resets the ammo count to 0.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1917,7 +1967,10 @@
           "scripts\\Personal_Stripper.dll",
           "scripts\\MK2AmmoGiver.dll"
         ],
-        "FileToVersionCheck" : "scripts\\MK2AmmoGiver.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\MK2AmmoGiver.dll",
         "Description": "This mod allows you to call and have a stripper at any of the valid interiors.",
         "RequiredMods": [
           "ScriptHookV",
@@ -1978,7 +2031,8 @@
           "scripts\\GalaxyClassSuperYacht\\Yacht.ini",
           "scripts\\GalaxyClassSuperYacht.dll"
         ],
-        "FileToVersionCheck" : "scripts\\GalaxyClassSuperYacht.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\GalaxyClassSuperYacht.dll",
         "Description": "This mod allows you to use the Galaxy Super Yacht, in all 34 locations like in my Executive Business mod, the script was ported from Executive Business for a standalone version of the same script.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2009,7 +2063,11 @@
           "scripts\\iFruitAddon2.dll",
           "scripts\\SinglePlayerGaragesReloaded.dll"
         ],
-        "FileToVersionCheck" : "scripts\\SinglePlayerGaragesReloaded.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2\\config.ini",
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\SinglePlayerGaragesReloaded.dll",
         "Description": "So this mod does the same as SPG, allowing you to have unlimited garages, where ever you want.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2044,7 +2102,8 @@
           "scripts\\WorkingAvenger\\Avenger.ini",
           "scripts\\WorkingAvenger.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingAvenger.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingAvenger.dll",
         "Description": "This mod makes the Avenger Function like it does online, note you cannot use just any old avenger, so head over to LSIA and pickup your personal avenger.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2093,7 +2152,11 @@
           "scripts\\Personal_Hooker.dll",
           "scripts\\iFruitAddon2.dll"
         ],
-        "FileToVersionCheck" : "scripts\\Personal_Hooker.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2\\config.ini",
+          "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\Personal_Hooker.dll",
         "Description": "This mod does what the mods name does, allows you to have a custom made hooker, avaiable in your phone contacts, the mod also supports the use of Addon Ped.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2114,7 +2177,10 @@
           "scripts\\Juggernaut.ini",
           "scripts\\iFruitAddon2.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingJuggernautSuit.dll",
+        "SharedFiles" : [
+          "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\WorkingJuggernautSuit.dll",
         "Description": "This simple mod allows any off the three protagonists to use the Juggernaut Suit from the Adversary mode, in GTA Online.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2136,7 +2202,8 @@
           "scripts\\AfterHours\\Terrobyte\\Terrobyte.ini",
           "scripts\\WorkingTerrabyte.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingTerrabyte.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingTerrabyte.dll",
         "Description": "This mod allows you to use the Terabyte Command Center, just like in GTAOnline, you can access the Oppressor MK2, and Oppressor, you can opperate a mobile drone for recon and much more.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2159,7 +2226,10 @@
           "scripts\\Lester's Bribes.dll",
           "scripts\\iFruitAddon2.dll"
         ],
-        "FileToVersionCheck" : "scripts\\Lester's Bribes.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\Lester's Bribes.dll",
         "Description": "This mod adds the interaction menu from online where you can eat snacks, equip armour and the menu where u call Lester for options in online into one combined menu.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2189,7 +2259,8 @@
           "scripts\\ReplacePlayerVehicle\\SettingsData.ini",
           "scripts\\ReplacePlayerVehicle.dll"
         ],
-        "FileToVersionCheck" : "scripts\\ReplacePlayerVehicle.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\ReplacePlayerVehicle.dll",
         "Description": "This mod supports replacing Franklin's Buffalo and Bagger, Trevor's Bodhi and Quadbike, and Michael's Tailgater.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2842,7 +2913,10 @@
           "scripts\\SafehousesReloaded.dll",
           "scripts\\iFruitAddon2.dll"
         ],
-        "FileToVersionCheck" : "scripts\\SafehousesReloaded.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\SafehousesReloaded.dll",
         "Description": "This mod is a perfect alternative to Single Player Apartment by I'm Not Mental, this mod adds in all Silthouse House, High End Appartments into Story Mode.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2864,7 +2938,10 @@
           "scripts\\iFruitAddon2.dll",
           "scripts\\MilitaryTrailer.dll"
         ],
-        "FileToVersionCheck" : "scripts\\MilitaryTrailer.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\MilitaryTrailer.dll",
         "Description": "",
         "RequiredMods": [
           "ScriptHookV",
@@ -2887,7 +2964,10 @@
           "scripts\\iFruitAddon2.dll",
           "scripts\\MPA Gestures.txt"
         ],
-        "FileToVersionCheck" : "scripts\\AdvancedActions.dll",
+        "SharedFiles" : [
+	  "scripts\\iFruitAddon2.dll"
+	],
+	"FileToVersionCheck" : "scripts\\AdvancedActions.dll",
         "Description": "This mod is a mod that allows the user to toggle custom Advanced Functions.",
         "RequiredMods": [
           "ScriptHookV",
@@ -2950,7 +3030,8 @@
           "scripts\\WorkingKosatka\\Kosatka\\WorkingKosatka.ini",
           "scripts\\WorkingKosatkaSubmarine.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingKosatkaSubmarine.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingKosatkaSubmarine.dll",
         "Description": "This mod turns the Kosotka Submarine, added in the Cayo Perico update into fully working.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3034,7 +3115,8 @@
           "scripts\\Payday.ini",
           "scripts\\ThePayday.dll"
         ],
-        "FileToVersionCheck" : "scripts\\ThePayday.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\ThePayday.dll",
         "Description": "The Payday is a Heist Mod, with Complete Heist, containing 3+ setups and 1 Finale, as of 4.0 there are 13 Heists Completed with another 3 heists coming.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3055,7 +3137,8 @@
           "scripts\\PersonalDriver.dll",
           "scripts\\PersonalDriver.ini"
         ],
-        "FileToVersionCheck" : "scripts\\PersonalDriver.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\PersonalDriver.dll",
         "Description": "Personal Driver is a simple mod that allows you to have a personal driver, that will drive you to a waypoint.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3074,7 +3157,8 @@
         "FileList": [
           "scripts\\WorkingFlatbed.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingFlatbed.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingFlatbed.dll",
         "Description": "This simple script allows you to use the flatbed truck as a vehicle carrier.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3092,7 +3176,8 @@
         "FileList": [
           "scripts\\WorkingWastelander.dll"
         ],
-        "FileToVersionCheck" : "scripts\\WorkingWastelander.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\WorkingWastelander.dll",
         "Description": "This simple mod allows you to use the Wastelander as a vehicle carrier.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3111,7 +3196,8 @@
           "scripts\\OnlineBlipsMod.ini",
           "scripts\\OnlineVehicleBlipsInSp.dll"
         ],
-        "FileToVersionCheck" : "scripts\\OnlineVehicleBlipsInSp.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\OnlineVehicleBlipsInSp.dll",
         "Description": "This is a simple mod, that when you spawn a dlc vehicle, such as the Avenger, Akula, Barrage, APC, Halftrack, Molotok, Sterling the script will add its own blip like in gta online.",
         "RequiredMods": [
           "ScriptHookV",
@@ -3131,7 +3217,8 @@
           "scripts\\LoadHatches.dll",
           "scripts\\LoadHatches.ini"
         ],
-        "FileToVersionCheck" : "scripts\\LoadHatches.dll",
+        "SharedFiles" : [],
+	"FileToVersionCheck" : "scripts\\LoadHatches.dll",
         "Description": "This mod is designed for my Gunrunning and Doomsday Heist mod.",
         "RequiredMods": [
           "ScriptHookV",
