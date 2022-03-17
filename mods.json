@@ -487,7 +487,7 @@
           "scripts\\MobileWaredobe\\Waredrobe\\Trevor\\Slot10.ini"
         ],
         "SharedFiles" : [
-	  "scripts\\iFruitAddon2.dll",
+	  "scripts\\iFruitAddon2.dll"
 	],
 	"FileToVersionCheck" : "scripts\\MobileWareDrobe.dll",
         "Description": "This Mod simply adds a Mobile version of the Wardrobe, found in any of my Business mods, or Business Helper.",
