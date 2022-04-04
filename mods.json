@@ -60,7 +60,7 @@
       },
       {
         "Name": "HKHModHelper",
-        "Active": true,
+        "Active": false,
         "Installable": true,
         "Title": "HKH Mod Helper",
         "VersionNumber": "2.0.2",
@@ -637,11 +637,11 @@
       },
       {
         "Name": "TheBusinessMegaPack",
-        "Active": false,
+        "Active": true,
         "Installable": true,
         "Title": "The Business Mega Pack",
-        "VersionNumber": "3.0.2",
-        "DownloadUrl": "https://files.gta5-mods.com/uploads/the-business-mega-pack/587f7f-TBMP%20_%20Refresh%203.0.2.zip",
+        "VersionNumber": "3.0.5",
+        "DownloadUrl": "https://files.gta5-mods.com/uploads/the-business-mega-pack/f752fb-TBMP%20_%20Refresh%203.0.5%20(QOL%201%20UPDATE).zip",
         "FileCount": 1088,
         "FileList": [
           "scripts\\AfterHoursBusiness.dll",
