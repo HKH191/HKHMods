@@ -60,7 +60,7 @@
       },
       {
         "Name": "HKHModHelper",
-        "Active": false,
+        "Active": true,
         "Installable": true,
         "Title": "HKH Mod Helper",
         "VersionNumber": "2.0.2",
