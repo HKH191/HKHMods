@@ -6,7 +6,7 @@
         "Active": true,
         "Installable" :  false,
         "Title": "Script Hook V",
-        "VersionNumber" : "1.0.2545.0",
+        "VersionNumber" : "1.0.2628.2",
         "DownloadUrl": "http://www.dev-c.com/gtav/scripthookv/",
         "FileCount": 2,
         "FileList": [
@@ -22,7 +22,7 @@
         "Active": true,
         "Installable": false,
         "Title": "Script Hook V Dot Net",
-        "VersionNumber": "3.4.0",
+        "VersionNumber": "2.10.13.0",
         "DownloadUrl": "https://github.com/crosire/scripthookvdotnet/releases/download/v3.4.0/ScriptHookVDotNet.zip",
         "FileCount": 7,
         "FileList": [
@@ -63,7 +63,7 @@
         "Active": false,
         "Installable": true,
         "Title": "HKH Mod Helper",
-        "VersionNumber": "2.0.2",
+        "VersionNumber": "3.0.1",
         "DownloadUrl": "https://files.gta5-mods.com/uploads/hkh-mod-helper/34ce36-HKH%20Mod%20Helper%202.0.2(MKV%20Gunlocker).zip",
         "FileCount": 3,
         "FileList": [
@@ -1736,7 +1736,7 @@
         "Active": false,
         "Installable": true,
         "Title": "Player Companion",
-        "VersionNumber": "4.0.0.2",
+        "VersionNumber": "5.0.1",
         "DownloadUrl": "https://files.gta5-mods.com/uploads/player-companion/3e8b0e-Player%20Companion%204.0.0.2.zip",
         "FileCount": 63,
         "FileList": [
